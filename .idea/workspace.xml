@@ -4,7 +4,89 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd11414-b5e7-42d6-a364-3a1a8f18f906" name="Changes" comment="commit" />
+    <list default="true" id="3dd11414-b5e7-42d6-a364-3a1a8f18f906" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/api_platform.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/nelmio_cors.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/api_platform.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231026062812.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231026062935.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231113152144.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231120085200.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231120085312.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231214090006.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231214090552.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231214091342.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231222092402.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20231222094903.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20240115154223.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpstan.dist.neon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/6585682c66182_IMG_3344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/65a5470c7aefc_IMG_3777.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snyk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApiResource/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CreateMediaObjectAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/MeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Actor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/MediaObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ActorRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/MediaObjectRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/MovieRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serializer/MediaObjectNormalizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Slugify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/UserPasswordHasher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/demo/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WR506D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WR506D.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,6 +285,10 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
