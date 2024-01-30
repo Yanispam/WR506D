@@ -28,13 +28,30 @@ class AppFixtures extends Fixture
             $actor->setFirstname($nameParts[0] ?? ''); // Assuming the first name is the first part
             $actor->setDob(new \DateTime('2012-03-03'));
             $actor->setCreatedAt(new \DateTimeImmutable());
+            $actor->setNationality($faker->country);
+
+            $createdActors[] = $actor;
+
             $manager->persist($actor);
 
+
+        }
+        $faker->addProvider(new \Xylis\FakerCinema\Provider\Movie($faker));
+        $movies = $faker->movies(100);
+        foreach ($movies as $item) {
             $movie = new Movie();
-            $movie->setTitle($faker->title);
-            $movie->addActor($actor); // Assuming addActor method requires an Actor parameter
+            $movie->setTitle($item);
+            $movie->setDescription($faker->text);
+            $movie->setDirector($faker->director);
+            shuffle($createdActors);
+            $createdActorsSliced = array_slice($createdActors, 0, 4);
+            foreach ($createdActorsSliced as $actor) {
+                $movie->addActor($actor);
+            }
             $manager->persist($movie);
         }
+
         $manager->flush();
+        return true;
     }
 }
