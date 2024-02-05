@@ -207,10 +207,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -238,6 +234,8 @@
       <workItem from="1705395112125" duration="599000" />
       <workItem from="1705484892223" duration="1816000" />
       <workItem from="1706015961823" duration="806000" />
+      <workItem from="1706612422926" duration="2956000" />
+      <workItem from="1707127948795" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1694505352891</created>

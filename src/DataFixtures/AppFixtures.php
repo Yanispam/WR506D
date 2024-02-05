@@ -28,7 +28,7 @@ class AppFixtures extends Fixture
             $actor->setFirstname($nameParts[0] ?? ''); // Assuming the first name is the first part
             $actor->setDob(new \DateTime('2012-03-03'));
             $actor->setCreatedAt(new \DateTimeImmutable());
-            $actor->setNationality($faker->country);
+                $actor->setNationality($faker->country);
 
             $createdActors[] = $actor;
 
